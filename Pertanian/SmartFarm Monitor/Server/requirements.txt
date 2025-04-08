@@ -1,0 +1,22 @@
+# smartfarm_server/requirements.txt
+
+# Core Framework
+Flask>=2.0 # Atau versi spesifik lainnya jika perlu
+Flask-SQLAlchemy>=2.5
+psycopg2-binary>=2.9 # Driver PostgreSQL (versi binary lebih mudah diinstall di banyak OS)
+
+# Configuration Helper
+python-dotenv>=0.19
+
+# ML/AI (Tambahkan nanti jika sudah siap)
+# tensorflow>=2.8
+# numpy
+# pandas
+
+# WSGI Server (Untuk Production, opsional untuk development awal)
+# gunicorn
+
+# Lainnya (jika dibutuhkan)
+# Flask-Migrate (untuk migrasi database)
+# requests (jika perlu memanggil API eksternal)
+# marshmallow (untuk validasi/serialisasi data API)
