@@ -4,11 +4,7 @@ Di era digital ini, teknologi terus merambah ke berbagai sektor, tak terkecuali 
 Konsep Dasar SmartFarm Monitor
 Inti dari SmartFarm Monitor adalah sistem pemantauan dan analisis kondisi lahan pertanian secara real-time. Bagaimana cara kerjanya?
 1. Pengumpulan Data: Berbagai sensor dipasang di lahan pertanian. Sensor-sensor ini bertugas mengukur parameter penting seperti: 
--Suhu udara dan tanah 
--Kelembapan udara dan tanah 
--Intensitas cahaya 
--Tingkat pH tanah/air 
--Kandungan nutrisi (misalnya N, P, K) dalam tanah atau larutan hidroponik. 
+Suhu udara dan tanah ,Kelembapan udara dan tanah ,Intensitas cahaya ,Tingkat pH tanah/air ,Kandungan nutrisi (misalnya N, P, K) dalam tanah atau larutan hidroponik. 
 2. Transmisi Data: Data yang dikumpulkan oleh sensor secara berkala dikirimkan melalui jaringan (seperti WiFi, LoRaWAN, atau jaringan seluler) ke server pusat. 
 3. Pemrosesan & Analisis Sisi Server: Di sinilah "kecerdasan" aplikasi berperan. Server menerima aliran data mentah, membersihkannya, menyimpannya (misalnya dalam database seperti PostgreSQL), dan yang terpenting, menganalisisnya menggunakan algoritma AI dan Machine Learning (ML). Model ML dilatih untuk mengenali pola, mendeteksi anomali, dan membuat prediksi berdasarkan data historis dan data saat ini. 
 4. Penyajian Informasi Sisi Klien: Hasil analisis dan data real-time kemudian disajikan kepada pengguna melalui antarmuka yang mudah dipahami. Ini bisa berupa dasbor web (diakses melalui browser) atau aplikasi mobile (Android/iOS). Visualisasi data menggunakan grafik (misalnya dengan Chart.js) membantu pengguna memahami kondisi lahan dengan cepat. 
