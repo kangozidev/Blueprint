@@ -1,0 +1,79 @@
+/* smartfarm_client/src/index.css */
+
+/* Reset dasar & pengaturan box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Font dasar sans-serif yang umum */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased; /* Rendering font lebih halus di Webkit */
+  -moz-osx-font-smoothing: grayscale; /* Rendering font lebih halus di Firefox */
+
+  /* Warna latar belakang dasar (contoh: abu-abu muda) */
+  background-color: #f4f7f6;
+
+  /* Warna teks dasar */
+  color: #333;
+
+  /* Mencegah scroll horizontal yang tidak diinginkan jika ada elemen lebar */
+  overflow-x: hidden;
+}
+
+/* Memberikan gaya dasar pada link */
+a {
+  color: #007bff; /* Warna link biru standar */
+  text-decoration: none; /* Hapus garis bawah default */
+}
+
+a:hover {
+  text-decoration: underline; /* Tambahkan garis bawah saat hover */
+}
+
+/* Kontainer utama aplikasi (opsional, bisa juga di App.js) */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Pastikan #root mengisi setidaknya tinggi viewport */
+}
+
+/* Gaya dasar untuk list (opsional) */
+ul, ol {
+  list-style: none; /* Hapus bullet/numbering default */
+}
+
+/* Gaya dasar untuk tombol (opsional, lebih baik di komponen Button) */
+button {
+  cursor: pointer;
+  font-family: inherit; /* Gunakan font dari body */
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #eee;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+/* Anda bisa menambahkan variabel warna CSS di sini jika mau */
+/* :root {
+  --primary-color: #4CAF50;
+  --secondary-color: #FFC107;
+  --text-color: #333;
+  --background-color: #f4f7f6;
+} */
+
+/* Responsivitas dasar (contoh) */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px; /* Ukuran font lebih kecil di layar kecil */
+  }
+}
