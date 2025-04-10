@@ -61,7 +61,10 @@ Aplikasi antarmuka pengguna (UI) berbasis web untuk sistem SmartFarm Monitor. Di
 
 ## Struktur Proyek
 
-![image](https://github.com/user-attachments/assets/ef633fd8-4a91-4281-952a-2bf66414bed1)
+![image](https://github.com/user-attachments/assets/5b006a01-fbe7-4355-b64f-fddbc7b9f075)
+
+
+
 
 
 
