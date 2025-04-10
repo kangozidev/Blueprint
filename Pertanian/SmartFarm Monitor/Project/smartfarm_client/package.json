@@ -1,0 +1,42 @@
+{
+  "name": "smartfarm-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0", // Opsional: untuk testing
+    "@testing-library/react": "^13.4.0",    // Opsional: untuk testing
+    "@testing-library/user-event": "^13.5.0",// Opsional: untuk testing
+    "react": "^18.3.1",                     // Library React inti
+    "react-dom": "^18.3.1",                 // Untuk render React ke DOM
+    "react-router-dom": "^6.23.0",          // Untuk routing sisi klien
+    "react-scripts": "5.0.1",               // Skrip build/run (dari Create React App - bisa diganti Vite)
+    "chart.js": "^4.4.2",                   // Library chart
+    "react-chartjs-2": "^5.2.0",            // Wrapper Chart.js untuk React
+    "axios": "^1.7.1",                      // Opsional: Alternatif Fetch API untuk HTTP requests
+    "web-vitals": "^2.1.4"                  // Opsional: untuk pengukuran performa
+  },
+  "scripts": {
+    "start": "react-scripts start",          // Menjalankan server development
+    "build": "react-scripts build",          // Membuat build produksi
+    "test": "react-scripts test",            // Menjalankan tests
+    "eject": "react-scripts eject"           // (CRA specific - jarang digunakan)
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
