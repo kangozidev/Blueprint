@@ -1,0 +1,111 @@
+/* smartfarm_client/src/pages/ManageAreasPage/ManageAreasPage.module.css */
+
+.pageTitle {
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.section {
+  background-color: #fdfdfd;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin-bottom: 30px;
+}
+
+.sectionTitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+  color: #444;
+}
+
+.areaForm label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.areaForm input[type="text"],
+.areaForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.areaForm textarea {
+  min-height: 80px;
+  resize: vertical; /* Izinkan resize vertikal */
+}
+
+.submitButton {
+  background-color: #28a745; /* Warna hijau */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #218838; /* Hijau lebih gelap saat hover */
+}
+
+.submitButton:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.formMessage {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.formMessage.success {
+  background-color: #d4edda; /* Hijau muda */
+  color: #155724; /* Hijau tua */
+  border: 1px solid #c3e6cb;
+}
+
+.formMessage.error {
+  background-color: #f8d7da; /* Merah muda */
+  color: #721c24; /* Merah tua */
+  border: 1px solid #f5c6cb;
+}
+
+.areaList {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.areaList li {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed #eee;
+}
+.areaList li:last-child {
+   border-bottom: none;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.loadingContainer,
+.errorContainer {
+  padding: 20px;
+  text-align: center;
+  color: #666;
+}
+
+.errorContainer {
+  color: #dc3545;
+}
