@@ -1,0 +1,105 @@
+/* smartfarm_client/src/pages/AreaDetailPage/AreaDetailPage.module.css */
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eee;
+}
+
+.pageTitle {
+  margin: 0;
+  color: #333;
+}
+
+.backLink {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.detailGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px; /* Jarak antar bagian */
+  margin-bottom: 30px;
+}
+
+.section {
+  background-color: #fdfdfd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.sectionTitle {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color: #444;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.statusGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.historyControls {
+  display: flex;
+  flex-wrap: wrap; /* Agar kontrol turun jika tidak cukup lebar */
+  gap: 15px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.historyControls label {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.historyControls select,
+.historyControls input[type="datetime-local"],
+.historyControls button {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.recommendationList, .predictionDetails {
+  /* Tambahkan gaya jika perlu */
+  line-height: 1.6;
+}
+
+.recommendationItem, .predictionItem {
+   margin-bottom: 10px;
+   padding-bottom: 10px;
+   border-bottom: 1px dashed #eee;
+}
+.recommendationItem:last-child, .predictionItem:last-child {
+   border-bottom: none;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.errorContainer {
+  color: #dc3545;
+}
