@@ -1,0 +1,55 @@
+/* smartfarm_client/src/App.css */
+
+.App {
+  /* Biarkan App mengisi ruang yang tersedia di dalam #root */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  background-color: #282c34; /* Warna gelap untuk header */
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Judul kiri, Navigasi kanan */
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.App-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.App-nav li {
+  margin-left: 20px; /* Jarak antar item navigasi */
+}
+
+.App-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.App-nav a:hover,
+.App-nav a.active { /* Gaya untuk link aktif (jika menggunakan NavLink) */
+  color: #61dafb; /* Warna aksen React */
+}
+
+.App-content {
+  padding: 20px;
+  flex-grow: 1; /* Biarkan konten mengisi sisa ruang */
+  background-color: #ffffff; /* Latar belakang putih untuk area konten */
+  max-width: 1200px; /* Batasi lebar konten (opsional) */
+  margin: 20px auto; /* Tengahkan konten dan beri margin atas/bawah */
+  width: 95%; /* Lebar relatif */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Efek bayangan halus (opsional) */
+  border-radius: 8px; /* Sudut membulat (opsional) */
+}
