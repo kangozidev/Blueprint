@@ -120,3 +120,15 @@ export const ingestData = async (sensorData) => {
 //     throw error; // Re-throw agar komponen bisa menangani
 //   }
 // };
+// smartfarm_client/src/services/apiService.js
+// ... (fungsi fetchAreas, createArea, handleResponse, dll sudah ada) ...
+
+/** Mengambil detail satu area berdasarkan ID */
+export const fetchAreaById = async (areaId) => {
+  if (!areaId) throw new Error('Area ID diperlukan');
+  // Pastikan endpoint ini ada di server Anda (GET /api/v1/areas/{area_id})
+  const response = await fetch(`${API_BASE_URL}/areas/${areaId}`);
+  return handleResponse(response);
+};
+
+// ... (fungsi fetchAreaStatus, fetchAreaHistory, dll sudah ada) ...
