@@ -61,21 +61,8 @@ Aplikasi antarmuka pengguna (UI) berbasis web untuk sistem SmartFarm Monitor. Di
 
 ## Struktur Proyek
 
-smartfarm_client/
-├── public/            # Aset statis & index.html
-├── src/               # Source code aplikasi React
-│   ├── assets/        # Gambar, font, dll.
-│   ├── components/    # Komponen UI reusable (Kartu, Tombol, Chart, ...)
-│   ├── pages/         # Komponen Halaman/View (Dashboard, Detail, ...)
-│   ├── services/      # Logika interaksi API backend
-│   ├── contexts/      # State management (React Context)
-│   ├── hooks/         # Custom React Hooks
-│   ├── routes/        # Konfigurasi routing (jika dipisah)
-│   └── config/        # Konfigurasi klien (misal: URL API)
-├── .env.example       # Contoh environment variables
-├── .gitignore         # File/folder yg diabaikan Git
-├── package.json       # Metadata & dependensi proyek
-└── README.md          # Dokumentasi ini
+![image](https://github.com/user-attachments/assets/ef633fd8-4a91-4281-952a-2bf66414bed1)
+
 
 
 ## Instruksi Setup
