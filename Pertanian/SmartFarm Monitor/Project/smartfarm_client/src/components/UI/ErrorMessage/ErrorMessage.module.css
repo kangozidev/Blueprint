@@ -1,0 +1,37 @@
+/* smartfarm_client/src/components/UI/ErrorMessage/ErrorMessage.module.css */
+
+.errorBox {
+  border: 1px solid #f5c6cb; /* Merah muda pucat untuk border */
+  background-color: #f8d7da; /* Merah muda pucat untuk latar */
+  color: #721c24; /* Merah tua untuk teks */
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px 0; /* Beri sedikit jarak atas/bawah */
+  text-align: left; /* Ratakan teks ke kiri */
+  display: flex;
+  justify-content: space-between; /* Posisikan tombol retry ke kanan jika ada */
+  align-items: center; /* Tengahkan item secara vertikal */
+}
+
+.errorMessage {
+  margin: 0;
+  flex-grow: 1; /* Biarkan teks error mengisi ruang */
+  margin-right: 15px; /* Jarak antara teks dan tombol */
+}
+
+.retryButton {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  color: #721c24; /* Sesuaikan warna tombol */
+  background-color: transparent;
+  border: 1px solid #721c24;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap; /* Agar teks tombol tidak wrap */
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.retryButton:hover {
+  background-color: #721c24;
+  color: white;
+}
