@@ -1,0 +1,28 @@
+/* smartfarm_client/src/pages/DashboardPage/DashboardPage.module.css */
+
+.pageTitle {
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.areaGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Kolom responsif */
+  gap: 20px; /* Jarak antar kartu */
+}
+
+.loadingContainer,
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px; /* Beri sedikit tinggi agar tidak lompat */
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.errorContainer {
+  color: #dc3545; /* Warna merah untuk error */
+}
