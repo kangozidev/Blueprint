@@ -1,0 +1,43 @@
+/* smartfarm_client/src/components/AreaCard/AreaCard.module.css */
+
+.card {
+  border: 1px solid #e0e0e0; /* Border abu-abu halus */
+  border-radius: 8px; /* Sudut membulat */
+  padding: 20px;
+  background-color: #ffffff; /* Latar putih */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Bayangan halus */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transisi untuk hover */
+  height: 100%; /* Pastikan kartu mengisi tinggi grid item */
+  display: flex;
+  flex-direction: column; /* Susun konten secara vertikal */
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Bayangan lebih jelas saat hover */
+  transform: translateY(-3px); /* Sedikit terangkat saat hover */
+}
+
+.cardTitle {
+  font-size: 1.25rem; /* Ukuran font judul */
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee; /* Garis pemisah tipis */
+  padding-bottom: 8px;
+}
+
+.cardInfo {
+  font-size: 0.95rem; /* Ukuran font info */
+  color: #555; /* Warna teks info */
+  margin-bottom: 8px; /* Jarak antar baris info */
+  flex-grow: 1; /* Biarkan bagian info mengisi ruang tersisa */
+}
+
+.cardInfo strong {
+  color: #444; /* Warna teks label (misal: "Tanaman:") */
+}
+
+.noInfo {
+  font-style: italic; /* Miringkan teks jika info tidak ada */
+  color: #888;
+}
