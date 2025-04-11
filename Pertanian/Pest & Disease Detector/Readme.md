@@ -2,7 +2,7 @@
 
 Pest & Disease Detector: Deteksi Dini Hama & Penyakit Tanaman dengan Kecerdasan Buatan
 
-Pendahuluan
+## Pendahuluan
 
 Tanaman, baik dalam skala pertanian besar maupun kebun rumahan, merupakan bagian vital dari ekosistem dan sumber pangan kita. Namun, ancaman dari hama dan penyakit selalu mengintai, berpotensi menyebabkan kerusakan signifikan hingga gagal panen. Identifikasi dini dan akurat terhadap masalah ini seringkali menjadi tantangan, terutama bagi mereka yang tidak memiliki keahlian khusus di bidang pertanian atau botani. Menjawab tantangan ini, hadirlah inovasi teknologi berupa aplikasi 'Pest & Disease Detector'.
 
